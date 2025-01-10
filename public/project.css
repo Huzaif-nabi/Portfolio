@@ -1,0 +1,336 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+.inter-abc {
+  font-family: "Inter", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgba(17, 17, 17, 1);
+    display: flex;
+    letter-spacing: 1px;
+    height: 100vh;
+    align-items:center;
+    justify-content: space-evenly;
+    font-family: "Inter", serif;
+}
+
+.container-01{
+    background-color: rgba(30, 30, 31, 1);
+    /* background-color: antiquewhite; */
+    color: aliceblue;
+    min-width: 23%;
+    height: 90%;
+    border-radius: 25px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-left: 0.5em;
+}
+
+.profile-pic{
+    height: 15%;
+    max-width: 29%;
+    margin-top: 1.6em;
+}
+
+.name{
+    margin-top: 0.7em;
+    font-size: 1.6rem;
+    font-weight: bold;
+    color: rgba(255, 255, 255, 0.8);
+}
+
+.software-eng{
+    background-color: rgba(49, 49, 49, 1);
+    margin-top: .6em;
+    width: 43%;
+    height: 4.5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 40px;
+}
+
+.software-eng p{
+    font-size: .6rem;
+    font-weight: lighter;
+    color: rgba(255, 255, 255, 0.8);
+    /* background-color: antiquewhite; */
+}
+
+.container-01 hr{
+    width: 85%;
+    margin-top: 1.5em;
+    border: none;
+    height: .1em;
+    background-color: rgba(235, 195, 81, 1);
+    border-radius: 5px;
+}
+
+.mail{
+    /* border: 1px solid white; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 90%;
+    height: 12%;
+    margin-top: 1.3em;
+}
+
+.mail-logo-box{
+    border: 1px solid rgba(255, 255, 255, .4);
+    width: 25%;
+    height: 95%;
+    border-radius: 25px;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.mail-logo{
+    height: 70%;
+    width: 100%;
+}
+
+.mail-id{
+    
+    line-height: 18px;
+}
+
+.mail-id p{
+    font-size: .7rem;
+    color: rgba(255, 255, 255, 0.8);
+}
+
+.phone{
+    /* border: 1px solid white; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 90%;
+    height: 12%;
+    margin-top: .8em;
+}
+
+.phone-logo-box{
+    border: 1px solid rgba(255, 255, 255, .4);
+    width: 25%;
+    height: 95%;
+    border-radius: 25px;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.phone-logo{
+    height: 70%;
+    width: 100%;
+}
+
+.phone-id{
+    margin-right: 3.3em;
+    line-height: 18px;
+}
+
+.phone-id p{
+    font-size: .7rem;
+    color: rgba(255, 255, 255, 0.8);
+}
+
+.dob{
+    /* border: 1px solid white; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 90%;
+    height: 12%;
+    margin-top: .8em;
+}
+
+.dob-logo-box{
+    border: 1px solid rgba(255, 255, 255, .4);
+    width: 25%;
+    height: 95%;
+    border-radius: 25px;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.dob-logo{
+    height: 70%;
+    width: 100%;
+}
+
+.dob-id{
+    margin-right: 2em;
+    line-height: 18px;
+}
+
+.dob-id p{
+    font-size: .7rem;
+    color: rgba(255, 255, 255, 0.8);
+}
+
+.location{
+    /* border: 1px solid white; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 90%;
+    height: 12%;
+    margin-top: .8em;
+}
+
+.location-logo-box{
+    border: 1px solid rgba(255, 255, 255, .4);
+    width: 25%;
+    height: 95%;
+    border-radius: 25px;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.location-logo{
+    height: 70%;
+    width: 100%;
+}
+
+.location-id{
+    margin-right: .5em;
+    line-height: 15px;
+}
+
+.location-id p{
+    font-size: .7rem;
+    color: rgba(255, 255, 255, 0.8);
+}
+
+.container-01 span{
+    font-weight: 700;
+}
+
+.container-02{
+    background-color: rgba(30, 30, 31, 1);
+    /* background-color: aquamarine; */
+    width: 72%;
+    height: 90%;
+    border-radius: 25px;
+    margin-right: 0.5em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: rgba(255, 255, 255, 0.8);
+    overflow: auto;
+    scrollbar-width: none; /* Firefox */
+    -ms-overflow-style: none; /* Internet Explorer 10+ */
+}
+
+.container-02-a{
+    background-color: rgba(30, 30, 31, 1);
+    /* background-color: aquamarine; */
+    color: rgba(255, 255, 255, 0.8);
+    width: 72%;
+    height: 8%;
+    border-radius: 25px;
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+}
+
+.container-02-a h2{
+    margin-left: 2.5em;
+    margin-top: .6em;
+    line-height: 35px;
+    color: rgba(255, 255, 255, 0.8);
+}
+
+.horizontal-line{
+    /* background-color: aquamarine; */
+    width: 100%;
+    height: 9%;
+
+}
+
+.horizontal-line hr{
+    width: 8%;
+    height: 2px;
+    border: none;
+    background: rgba(235, 195, 81, 1);
+    border-radius: 10px;
+    margin-left: 3.6em;
+    margin-top: 3em;
+    position: fixed;
+}
+
+.navbar{
+    /* background-color: aquamarine; */
+    height: 100%;
+    width: 75%;
+    /* position: fixed; */
+    border-top-right-radius: 25px;
+    border-bottom-left-radius: 25px;
+}
+
+.navbar ul{
+    position: fixed;
+    background-color: rgba(41, 41, 42, 1);
+    width: 54%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 8%;
+    border-top-right-radius: 25px;
+    border-bottom-left-radius: 25px;
+}
+
+.navbar ul li{
+    list-style: none;
+}
+
+.navbar ul li a{
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.8);
+    font-size: .9rem;
+    font-weight: 500;
+}
+
+.navbar ul li a:hover{
+    color: rgb(233, 199, 107);
+}
+
+.navbar ul li a:active{
+    color: rgba(235, 195, 81, 1);
+}
+
+.container-02-b{
+    /* background-color: rosybrown; */
+    color: aliceblue;
+    width: 87%;
+    margin-top: 1.5em;
+    height: auto;
+    color: rgba(235, 195, 81, 1);
+    font-size: 1.1rem;
+}
+
+.container-02-b hr{
+    height: 2px;
+    border: none;
+    background: rgba(235, 195, 81, 1);
+    border-radius: 10px;
+    margin-top: 3px;
+}
